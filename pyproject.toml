@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-agents-lablab-hackaton"
+version = "0.1.0"
+description = ""
+authors = ["Lukasz Wilisowski <lukasz.wilisowski@willcodeacademy.com>"]
+readme = "README.md"
+packages = [{include = "ai_agents_lablab_hackaton"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
